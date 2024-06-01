@@ -24,3 +24,28 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Solving */
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:50px;
+  margin:50px;
+}
+
+.items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  gap: 100px;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 250px;
+}
